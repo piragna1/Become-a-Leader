@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { DialogosComponent } from '../../../shared_module/dialogos/dialogos.component';
-import { Pokemon } from '../../types/pokemon';
+import { Pokemon } from '../../interfaces/pokemon';
 
 @Component({
   selector: 'app-curar-equipo',
