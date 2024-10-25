@@ -1,7 +1,9 @@
 <p>curar-equipo works!</p>
 <div class="background-container">
   <div *ngIf="mostrarDialogo">
-    <app-dialogos [text]="textoDialogo" [options]="opciones"
-      (opcionElegida)="manejarOpcionElegida($event)"></app-dialogos>
+    <app-dialogos
+    [text]="textoDialogo"
+    [options]="opciones"
+    (opcionElegida)="recibirOpcionElegida($event)"></app-dialogos>
   </div>
 </div>

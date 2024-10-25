@@ -25,13 +25,12 @@ export class CurarEquipoComponent {
   restaurarHp(pokemon:Pokemon){
     pokemon.hp=pokemon.maxHp;
   }
-  manejarOpcionElegida(input:Event){
-    const opcionElegida  = (input.target as HTMLButtonElement).textContent;
-    if(opcionElegida ===this.opciones[0]){
+  recibirOpcionElegida(input:string){
+    if(input ===this.opciones[0]){
       this.curarPokemons();
       this.textoDialogo='Has curado a tus pokemon.';
     }
-    else if (opcionElegida ===this.opciones[1]){
+    else if (input ===this.opciones[1]){
       //volver
     }
   }
