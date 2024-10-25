@@ -11,16 +11,3 @@
 	flex-direction: column; /* Set the main axis to vertical */
 	justify-content: flex-end; /* Align items to the end of the main axis (bottom) */
 }
-
-.dialogue-container {
-	background-color: #f0e68c; /* Color amarillo claro similar a los diálogos de Pokémon */
-	border: 2px solid #999;
-	border-radius: 10px;
-	padding: 10px;
-	font-family: 'Pixelated', sans-serif;
-	font-size: 16px;
-	line-height: 1.5;
-	text-align: center;
-	width: 60%;
-	margin: 0 auto;
-  }
