@@ -1,0 +1,35 @@
+/*
+  font-family: 'Press Start 2P', sans-serif;
+  */
+  .dialog-container {
+
+  background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+
+  .dialog {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); /* Sombra para un efecto 3D */
+    max-width: 400px; /* Ancho máximo para diálogos más largos */
+  }
+
+  .dialog-text {
+    white-space: pre-wrap; /* Permite saltos de línea y conserva los espacios en blanco */
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: 'Press Start 2P', cursive;
+  }
+
+  .dialog-options {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+  }
+
+  .dialog-options button {
+    margin-bottom: 5px;
+  }
