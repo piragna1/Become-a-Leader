@@ -3,7 +3,7 @@
   <img *ngIf="characterImage" [src]="characterImage" alt="Retrato del personaje">
   <div class="dialog-text" #dialogText>{{ text }}</div>
   <div *ngIf="options.length > 0" class="dialog-options">
-    <button *ngFor="let option of options" (click)="opcionElegida(option)">{{ option }}</button>
+    <button *ngFor="let option of options" (click)="enviarOpcionElegida(option)">{{ option }}</button>
   </div>
 </div>
 
